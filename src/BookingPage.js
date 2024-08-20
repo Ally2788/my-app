@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './styles.css';
+import './BookingStyles.css';
 import Main from './Main';
 import BookingTable from './BookingTable';
 import { fetchBookings } from './api';

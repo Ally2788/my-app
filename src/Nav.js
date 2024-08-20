@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Nav() {
     return(
         <nav className="container">
-            <img src="header.logo.png" alt='Little Lemon Logo' style={{width: '184px', height: '48px'}}/>
+            <img src="/images/header.logo.png" alt='Little Lemon Logo' style={{width: '184px', height: '48px'}}/>
             <ul> 
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/about">About</Link></li>

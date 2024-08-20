@@ -4,12 +4,29 @@ import './styles.css';
 function Chicago() {
   return (
     <section className="about">
-      <h2>Little Lemon</h2>
-      <p>Chicago</p>
-      <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-      <div className="about-photos">
-        <img src="MarioandAdrianA.png" alt="Mario and Adrian A"/>
-        <img src="MarioandAdrianB.png" alt="Mario and Adrian B"/>
+      <div className="about-frame">
+        <div className="about-text">
+        <h2>Little Lemon</h2>
+        <p>Chicago</p>
+        <p>Amet minim mollit non deserunt<br />
+         ullamco est sit aliqua dolor do <br />
+         amet sint. Velit officia consequat<br />
+         duis enim velit mollit. Exercitation<br />
+         veniam consequat sunt nostrud amet.
+         <br />
+          Amet minim mollit non deserunt<br />
+          ullamco est sit aliqua dolor do amet<br />
+          sint. Velit officia consequat duis<br />
+           enim velit mollit.</p>
+        </div>
+        <div className="about-photos">
+          <div className='img1'>
+            <img className='A' src="/images/MarioandAdrianA.png" alt="Mario and Adrian A"/>
+          </div>
+          <div className='img2'>
+            <img className='B' src="/images/MarioandAdrianB.png" alt="Mario and Adrian B"/>
+          </div>
+        </div>
       </div>
     </section>
   );

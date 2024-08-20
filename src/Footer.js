@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="container">
         <div className="logo">
-            <img src="footer.logo.png" alt="Little Lemon Logo" style={{width: '183px', height: '260px'}}/>
+            <img src="/images/footer.logo.png" alt="Little Lemon Logo" style={{width: '183px', height: '260px'}}/>
         </div>
       <div className="footer-nav">
         <h3>Doormat Navigation</h3>

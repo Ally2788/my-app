@@ -1,0 +1,69 @@
+body {
+    font-family: 'Karla', sans-serif;
+  }
+  
+  .booking {
+  background-color: #495E57;
+  color: #ffffff; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .booking-form {
+    margin: auto;
+  }
+  
+  .booking-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .booking-input label {
+    font-weight: 600;
+  }
+  
+  .booking-input input,
+  .booking-input select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+  }
+  
+  .submit-btn {
+    grid-column: span 2;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    background-color: #F4CE14;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #EE9972;
+  }
+
+  .submit-btn:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+  }
+
+  .error {
+    color: #ff0000;
+    font-size: 12px;
+  }
+  
+  @media (max-width: 768px) {
+    .booking-form {
+      gap: 10px;
+      padding: 20px;
+    }
+  
+    .submit-btn {
+      width: 100%;
+    }
+  }
+  
